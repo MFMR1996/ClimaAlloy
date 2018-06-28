@@ -1,7 +1,6 @@
 <Alloy>
 	<Window class="container">
 		<View id="v_clima">
-			
 			<View id="v_temp">
 				<Label id="lb_temp_data"></Label>
 			</View>
@@ -19,11 +18,11 @@
 			<View id="v_place">
 				<Label id="lb_place"></Label>
 			</View>
-			
 		</View>
 		
+		
+		
 		<View id="v_pronostico">
-			
 			<View id="v_max_temp">
 				<Label id="lb_max_temp"></Label>
 				<ImageView id="img_max_temp"></ImageView>
@@ -54,5 +53,6 @@
 				<Label id="lb_ray_uv_data"></Label>
 			</View>
 		</View>
+		
 	</Window>
 </Alloy>
