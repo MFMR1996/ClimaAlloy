@@ -1,0 +1,58 @@
+<Alloy>
+	<Window class="container">
+		<View id="v_clima">
+			
+			<View id="v_temp">
+				<Label id="lb_temp_data"></Label>
+			</View>
+			
+			<View id="v_air_data">
+				<View id="v_wrap_air_data">
+					<ImageView id="img_air_ico"></ImageView>
+					<Label id="lb_air"></Label>
+					
+					<ImageView id="img_hum_ico"></ImageView>
+					<Label id="lb_hum"></Label>
+				</View>
+			</View>
+			
+			<View id="v_place">
+				<Label id="lb_place"></Label>
+			</View>
+			
+		</View>
+		
+		<View id="v_pronostico">
+			
+			<View id="v_max_temp">
+				<Label id="lb_max_temp"></Label>
+				<ImageView id="img_max_temp"></ImageView>
+				<Label id="lb_max_temp_data"></Label>
+			</View>
+			
+			<View id="v_min_temp">
+				<Label id="lb_min_temp"></Label>
+				<ImageView id="img_min_temp"></ImageView>
+				<Label id="lb_min_temp_data"></Label>
+			</View>
+			
+			<View id="v_temp_prom">
+				<Label id="lb_temp_prom"></Label>
+				<ImageView id="img_temp_prom"></ImageView>
+				<Label id="lb_temp_prom_data"></Label>
+			</View>
+			
+			<View id="v_precipitacion">
+				<Label id="lb_precipitacion"></Label>
+				<ImageView id="img_prep"></ImageView>
+				<Label id="lb_precipitacion_data"></Label>
+			</View>
+			
+			<View id="v_rad_uv">
+				<Label id="lb_ray_uv"></Label>
+				<ImageView id="img_ray_uv"></ImageView>
+				<Label id="lb_ray_uv_data"></Label>
+			</View>
+		</View>
+	</Window>
+</Alloy>

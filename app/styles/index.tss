@@ -1,0 +1,240 @@
+".container": {
+	backgroundImage:'/images/bg1.jpg',
+	width: '100%',
+	height: Titanium.UI.FILL,
+	layout: 'vertical'
+}
+
+//**********************View del clima****************************
+"#v_clima":{
+	width: '100%',
+	height: '75%',
+	layout: 'vertical'
+}
+//--------View de temperatura-------	
+"#v_temp":{
+	width: '100%',
+	height: '60%'
+}
+		
+"#lb_temp_data":{
+	text: "temp",
+	bottom: '-10dp',
+	color: '#FFFFFF',
+	font: {
+			fontSize: '120dp'
+		},
+	textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER
+}
+		
+//--------View de datos del aire-------
+"#v_air_data":{
+	width: '100%',
+	height: '10%',
+	layout: 'absolute'
+}
+
+"#v_wrap_air_data":{
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	layout: 'horizontal'
+}
+
+"#img_air_ico":{
+	height: '14dp',
+	image:'/images/wind.png',
+}
+
+"#lb_air":{
+	text: "air",
+	color: '#FFFFFF',
+	right: '10dp',
+	font: {
+		fontSize: '20dp'
+	}
+}
+
+"#img_hum_ico":{
+	height: '14dp',
+	image: '/images/drop.png',
+}
+
+"#lb_hum":{
+	text:"hum",
+	color: '#FFFFFF',
+	font: {
+		fontSize: '20dp'
+	}
+}
+	
+//--------View deel lugar-------
+"#v_place":{
+	width: '100%',
+	height: '30%'
+}	
+		
+"#lb_place":
+{
+	text:"place",
+	color: '#FFFFFF',
+	bottom: '10dp',
+	font: {
+		fontSize: '20dp'
+	}				
+}
+
+//***********************View del Pronostico******************************
+"#v_pronostico":{
+	backgroundColor: '#000000',
+	opacity: 0.5,
+	width: '100%',
+	height: '25%',
+	layout:'horizontal'
+}
+
+//--------View tempueratura max-----------
+"#v_max_temp":{
+	width:'20%',
+	height:'100%',
+	layout:'vertical'
+}
+
+"#lb_max_temp":{
+	text:'max\ntemp',
+	color: '#FFFFFF',
+	opacity: 1.0,
+	top: '10dp',
+	font: {
+		fontSize: '20dp'
+	}
+}
+
+"#img_max_temp":{
+	height: '35%',
+	image:'/images/sun.png'
+}
+
+"#lb_max_temp_data":{
+	text:'mt°',
+	color: '#FFFFFF',
+	font: {
+		fontSize: '15dp'
+	}
+}
+
+//--------View tempueratura max-----------
+"#v_min_temp":{
+	width:'20%',
+	height:'100%',
+	layout:'vertical'
+}
+
+"#lb_min_temp":{
+	text:'min\ntemp',
+	color: '#FFFFFF',
+	top: '10dp',
+	font: {
+		fontSize: '20dp'
+	}
+}
+
+"#img_min_temp":{
+	height: '35%',
+	image:'/images/sun.png',
+}
+
+"#lb_min_temp_data":{
+	text:'mt°',
+	color: '#FFFFFF',
+	font: {
+		fontSize: '15dp'
+	}
+}
+
+//--------View tempueratura prom-----------
+"#v_temp_prom":{
+	width:'20%',
+	height:'100%',
+	layout:'vertical'
+}
+
+"#lb_temp_prom":{
+	text:'temp\nprom',
+	color: '#FFFFFF',
+	top: '10dp',
+	font: {
+		fontSize: '20dp'
+	}
+}
+
+"#img_temp_prom":{
+	height: '35%',
+	image:'/images/sun.png',
+}
+
+"#lb_temp_prom_data":{
+	text:'tp°',
+	color: '#FFFFFF',
+	font: {
+		fontSize: '15dp'
+	}
+}
+
+//--------View precipitacion-----------
+"#v_precipitacion":{
+	width:'20%',
+	height:'100%',
+	layout:'vertical'
+}
+
+"#lb_precipitacion":{
+	text:'precip\n',
+	color: '#FFFFFF',
+	top: '10dp',
+	font: {
+		fontSize: '20dp'
+	}
+}
+
+"#img_prep":{
+	height: '35%',
+	image:'/images/rain.png'
+}
+
+"#lb_precipitacion_data":{
+	text:'prep',
+	color: '#FFFFFF',
+	font: {
+		fontSize: '15dp'
+	}
+}
+
+//--------View radiacion UV-----------
+"#v_rad_uv":{
+	width:'20%',
+	height:'100%',
+	layout:'vertical'
+}
+
+
+"#lb_ray_uv":{
+	text:'ray\nuv',
+	color: '#FFFFFF',
+	top: '10dp',
+	font: {
+		fontSize: '20dp'
+	}
+}
+
+"#img_ray_uv":{
+	height: '35%',
+	image:'/images/uv-rays-of-sun.png'
+}
+
+"#lb_ray_uv_data":{
+	text:'ray_uv',
+	color: '#FFFFFF',
+	font: {
+		fontSize: '15dp'
+	}
+}
